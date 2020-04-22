@@ -1,0 +1,72 @@
+.title-container {
+    width: 100%;
+    padding: 3% 0;
+    .flexed(column);
+    border-bottom: solid @color-text 1px;
+  
+    .header-photo {
+      width: 85%;
+      height: 450px;
+      background-image: url('../assets/home.png');
+      background-position: center;
+      .flexed(column);
+  
+  
+      &:hover {
+        opacity: 80%;
+      }
+  
+      h1 {
+        font-family: @body-font;
+        font-size: 2.6rem;
+        font-weight: bold;
+        color: white;
+        width: 40%;
+      }
+  
+      h3 {
+        .myButton(white);
+        border-radius: 3px;
+      }
+    }
+  }
+  
+  .artists-container {
+    .flexed(row, center, flex-start);
+  
+    
+  
+    .artist {
+      width: 48%;
+      padding: 3% 0;
+      .flexed(column, center, center);
+  
+     
+  
+      img {
+        max-width: 65%;
+        border-radius: 5px;
+        height: 200px;
+        overflow: hidden;
+  
+        @media @mobile {
+          height: 250px;
+        }
+      }
+  
+      a {
+        text-decoration: none;
+        h2 {
+          font-size: 1.2rem;
+          color: black;
+          padding: 6% 0;
+        }
+      }
+  
+      .bio {
+        width: 95%;
+        font-size: 0.9rem;
+  
+      }
+    }
+  }

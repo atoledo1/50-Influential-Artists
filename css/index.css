@@ -1,4 +1,224 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPN-Co.ttf) format('truetype');
+}
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+body {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3% 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.3;
+}
+img:hover {
+  opacity: 80%;
+}
+nav {
+  margin-bottom: 2%;
+  min-width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+@media (max-width: 500px) {
+  nav {
+    min-width: 50%;
+  }
+}
+nav h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  color: gray;
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: gray;
+  letter-spacing: 1px;
+}
+.title-container {
+  width: 100%;
+  padding: 3% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: solid gray 1px;
+}
+.title-container .header-photo {
+  width: 85%;
+  height: 450px;
+  background-image: url('../assets/home.png');
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title-container .header-photo:hover {
+  opacity: 80%;
+}
+.title-container .header-photo h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: white;
+  width: 40%;
+}
+.title-container .header-photo h3 {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 2% 3%;
+  font-size: 1rem;
+  letter-spacing: 0.8px;
+  margin-top: 2%;
+  border-radius: 3px;
+}
+.artists-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.artists-container .artist {
+  width: 48%;
+  padding: 3% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.artists-container .artist img {
+  max-width: 65%;
+  border-radius: 5px;
+  height: 200px;
+  overflow: hidden;
+}
+@media (max-width: 500px) {
+  .artists-container .artist img {
+    height: 250px;
+  }
+}
+.artists-container .artist a {
+  text-decoration: none;
+}
+.artists-container .artist a h2 {
+  font-size: 1.2rem;
+  color: black;
+  padding: 6% 0;
+}
+.artists-container .artist .bio {
+  width: 95%;
+  font-size: 0.9rem;
+}

@@ -24,11 +24,11 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. How would you describe preprocessing to someone new to CSS?
-2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-3. How would you explain the concept of a variable to someone new to programming?
-4. What is the purpose of using functions in code?
-5. What is a JSON data?
+1. How would you describe preprocessing to someone new to CSS? It is a tool that extends the functionality of CSS by first using a different language that then gets compiled into CSS. 
+2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? My favorite concept would defintly be between mixins and the fact that when using import you work in smaller separate files since I feel both things really help mantain clarity and organization. What gives me the most trouble I would have to say is nesting, not because I don't understand it but because I feel I have not gotten used to doing it yet. 
+3. How would you explain the concept of a variable to someone new to programming? Variables are containers of information or value and they let us reference them and manipulate them. 
+4. What is the purpose of using functions in code? The purpose of using functions is that they are reusable and they allow you to condense multiple things or steps into them which then can be used again and again easily, 
+5. What is a JSON data? It's JavaScript Object Notation. It's derived from JavaScript, is comprised of all text and it is used with web aplications and servers. It is a way of exchanging data. 
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
